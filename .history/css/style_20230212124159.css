@@ -1760,7 +1760,7 @@ label {
 .search-form {
     width: 60%;
     margin: auto 0 auto auto;
-    padding: 4px;
+    padding: auto 4px;
 }
 
 .search-form form {}

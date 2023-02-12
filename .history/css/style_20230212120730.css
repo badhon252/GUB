@@ -1759,8 +1759,7 @@ label {
 
 .search-form {
     width: 60%;
-    margin: auto 0 auto auto;
-    padding: 4px;
+    margin: 0 auto;
 }
 
 .search-form form {}
@@ -1788,8 +1787,6 @@ label {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     font-size: 14px;
-    background-color: #0000000f;
-    border-radius: 4px;
 }
 
 .sf-list {
@@ -1984,6 +1981,7 @@ label {
 }
 
 .top-logo {
+    padding: 12px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -6867,6 +6865,7 @@ input:not(:focus):valid~.floating-label {
     margin-top: 15px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #e66030;
 }
 
 .welcome {
@@ -6880,10 +6879,9 @@ input:not(:focus):valid~.floating-label {
 }
 
 .slider-con {
-    background-color: #48484840;
+    background-color: #005c9794;
     position: absolute;
     bottom: 0;
-    filter: blur(0px);
 }
 
 p {
@@ -6891,9 +6889,5 @@ p {
 }
 
 .carousel-caption {
-    top: 80%
-}
-
-.carousel-caption h2 span {
-    color: #fff
+    top: 100%
 }

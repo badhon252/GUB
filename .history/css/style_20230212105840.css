@@ -1,3 +1,51 @@
+/*-----------------------------------------
+ [MASTER STYLE SHEET]
+ * Project: Education Master HTML Template
+ * Version: v1.0
+ * Copyright 2017-2020 rn53themes
+ * Last Changes: 10 jan 2018
+ * Author: RN53 Themes
+ * Email:      rn53themes@gmail.com
+ * Website:    http://www.rn53themes.net 
+ -----------------------------------------------*/
+
+
+/*-------------------------------------------------
+ =  Table of Css
+	All Pages Common CSS Styles
+	1.COLLEGE
+	2.MAIN MENU
+	3.HOME PAGE: PART ONE
+	4.HOME PAGE: COURSE 
+	5.HOME PAGE: EVENT
+	6.HOME PAGE: TAB AND ENQUIRY
+	7.SEARCH BOX
+	8.SLIDER
+	9.HOME PAGE: QUICK LINK 
+	10.TOP COURSES 
+	11.BOTTOM BOOKING 
+	12.BREADCRUM
+	13.COURSE DETAILS
+	14.USER DASHBOARD
+	15.FOOTER GALLERY AND BLOG
+	16.REGISTER LOGIN POPUPS 
+	17.REGISTER LOGIN POPUPS
+	18.STUDENT DASHBOARD 
+	19.STUDENT DASHBOARD - COURSES 
+	20.STUDENT DASHBOARD - TIME LINE 
+	21.MEGA MENU
+	22.SOCIAL MEDIA SHARE 
+	23.SOCIAL MEDIA SHARE
+	24.ABOUT US
+	25.AWARDS
+	26.ADMISSIONN
+	27.SEMINAR
+	28.EVENTS
+	29.CONTACT US
+	30.MOBILE MANU
+-------------------------------------------------*/
+
+
 /*-------------------------------------------------*/
 
 
@@ -1476,6 +1524,7 @@ label {
     color: #203245;
     margin-bottom: 0px;
     text-overflow: ellipsis;
+    white-space: pre;
     overflow: hidden;
 }
 
@@ -1759,8 +1808,7 @@ label {
 
 .search-form {
     width: 60%;
-    margin: auto 0 auto auto;
-    padding: 4px;
+    margin: 0 auto;
 }
 
 .search-form form {}
@@ -1788,8 +1836,6 @@ label {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     font-size: 14px;
-    background-color: #0000000f;
-    border-radius: 4px;
 }
 
 .sf-list {
@@ -1864,7 +1910,6 @@ label {
     top: 50%;
     width: 50px;
     height: 50px;
-    background: #000000;
     padding: 17px;
     border-radius: 50px;
 }
@@ -1984,6 +2029,7 @@ label {
 }
 
 .top-logo {
+    padding: 12px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -6867,33 +6913,15 @@ input:not(:focus):valid~.floating-label {
     margin-top: 15px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #e66030;
 }
+
+.ad-log-in-con p {}
+
+.ad-log-in-con form {}
+
+.ad-log-in-con form input {}
 
 .welcome {
     font-size: 3rem;
-    font-weight: bold;
-    color: white;
-}
-
-.carousel-inner {
-    position: relative;
-}
-
-.slider-con {
-    background-color: #48484840;
-    position: absolute;
-    bottom: 0;
-    filter: blur(0px);
-}
-
-p {
-    white-space: normal;
-}
-
-.carousel-caption {
-    top: 80%
-}
-
-.carousel-caption h2 span {
-    color: #fff
 }
